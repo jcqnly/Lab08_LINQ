@@ -29,14 +29,26 @@ and then search through the objects based on search parameters.
 ---
 
 ## Screenshots
-Proof of life that the JSON object can be displayed on the screen
+List of all the neighborhoods:
 
-![JSON Output](/assets/output.png)
+![All Neighborhoods](/assets/allNeighborhoods.png)
 
-This is how we envisioned breaking the objects
-based on what we saw in the JSON file:
+List of neighborhoods with the empty neighborhood names removed:
 
-![How the classes should be divided](/assets/classMethod.jpg)
+![List With No Empty Neighborhood Names](/assets/nullsRemoved.png)
+
+List of neighborhoods with duplicates removed:
+
+![Dupes Removed](/assets/dupesRemoved.png)
+
+List of neighborhoods output with a single Lambda query:
+
+![single query](/assets/singleQuery.png)
+
+List of neighborhoods with the final LINQ query:
+
+![LINQ Query](/assets/finalQuery.png)
+
 
 ## Acknowledgements
 - Many thanks to [taylorjoshuaw](https://github.com/taylorjoshuaw) 
